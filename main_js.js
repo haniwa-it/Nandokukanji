@@ -35,4 +35,3 @@ async function fetchAndProcessCSV() {
   document.getElementById('container').innerHTML = allhtml.join('\n');
 }
 
-function se
