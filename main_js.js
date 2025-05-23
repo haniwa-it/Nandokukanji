@@ -1,5 +1,3 @@
-const keyword = window.keyword || '';
-
 const requesturl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTbGxBlSXApgZNxfA4UlXJt-3ZEk3eRWaTLdxnsF9UDMP3EKrqC5nD7-T0fromp29n2-qvMOr7T8NhK/pub';
 
 async function fetchAndProcessCSV() {
