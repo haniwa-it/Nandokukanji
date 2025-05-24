@@ -5,7 +5,7 @@ async function fetchAndProcessCSV() {
     const csvText = await response.text();
 
     const rows = csvText.trim().split('\n').map(row => row.split(','));
-    let filteredRows = rows.filter(row => row[0].includes(keyword));
+    let filteredRows = rows.filter(row => row[0] === keyword);
 
     let allhtml = [];
 
